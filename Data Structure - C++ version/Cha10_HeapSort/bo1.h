@@ -1,12 +1,13 @@
- typedef int KeyType; /* ¶¨Òå¹Ø¼ü×ÖÀàĞÍÎªÕûĞÍ */
+ typedef int KeyType; /* å®šä¹‰å…³é”®å­—ç±»å‹ä¸ºæ•´å‹ */
  typedef struct
  {
-   KeyType key; /* ¹Ø¼ü×ÖÏî */
-   InfoType otherinfo; /* ÆäËüÊı¾İÏî£¬¾ßÌåÀàĞÍÔÚÖ÷³ÌÖĞ¶¨Òå */
- }RedType; /* ¼ÇÂ¼ÀàĞÍ */
+   KeyType key; /* å…³é”®å­—é¡¹ */
+   InfoType otherinfo; /* å…¶å®ƒæ•°æ®é¡¹ï¼Œå…·ä½“ç±»å‹åœ¨ä¸»ç¨‹ä¸­å®šä¹‰ */
+ }RedType; /* è®°å½•ç±»å‹ */
 
  typedef struct
  {
-   RedType *r; /* r[0]ÏĞÖÃ»òÓÃ×÷ÉÚ±øµ¥Ôª */
-   int length; /* Ë³Ğò±í³¤¶È */
- }SqList; /* Ë³Ğò±íÀàĞÍ */
+   RedType *r; /* r[0]é—²ç½®æˆ–ç”¨ä½œå“¨å…µå•å…ƒ */
+   int length; /* é¡ºåºè¡¨é•¿åº¦ */
+ }SqList; /* é¡ºåºè¡¨ç±»å‹ */
+Hello I AM HERE !!!!!!!
